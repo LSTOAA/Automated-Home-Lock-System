@@ -2,7 +2,6 @@
  * @Homelocksys.ino
  *
  * Automated Home Lock System using CP Plus Electric Door Lock, GSM SIM900A Module and Arduino Uno
- * Interfaced using Blynk
  * @version 0.1
  * @date 05-08-2019
  * @authors A. Sharma  and A. Saikia
