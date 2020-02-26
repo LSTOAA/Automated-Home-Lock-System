@@ -37,7 +37,7 @@ void SendMessage1()
 {
   Serial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(1000);  // Delay of 1000 milli seconds or 1 second
-  Serial.println("AT+CMGS=\"+919811172515\"\r");
+  Serial.println("AT+CMGS=\"+91XXXXXXXXXX\"\r");
   delay(1000);
   Serial.println("LOCK 1 OPEN");// The SMS text you want to send
   delay(100);
@@ -48,7 +48,7 @@ void SendMessage2()
 {
   Serial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(1000);  // Delay of 1000 milli seconds or 1 second
-  Serial.println("AT+CMGS=\"+919811172515\"\r"); // Replace x with mobile number
+  Serial.println("AT+CMGS=\"+91XXXXXXXXXX\"\r"); // Replace x with mobile number
   delay(1000);
   Serial.println("LOCK 1 CLOSE");// The SMS text you want to send
   delay(100);
@@ -61,7 +61,7 @@ void SendMessage5()
 {
   Serial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(1000);  // Delay of 1000 milli seconds or 1 second
-  Serial.println("AT+CMGS=\"+919811172515\"\r"); // Replace x with mobile number
+  Serial.println("AT+CMGS=\"+91XXXXXXXXXX\"\r"); // Replace x with mobile number
   delay(1000);
   Serial.println("LOCK 1 Not open");// The SMS text you want to send
   delay(100);
@@ -73,7 +73,7 @@ void SendMessage6()
 {
   Serial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(1000);  // Delay of 1000 milli seconds or 1 second
-  Serial.println("AT+CMGS=\"+919811172515\"\r"); // Replace x with mobile number
+  Serial.println("AT+CMGS=\"+91XXXXXXXXXX\"\r"); // Replace x with mobile number
   delay(1000);
   Serial.println("LOCK 1 not closed");// The SMS text you want to send
  delay(100);
