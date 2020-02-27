@@ -3,7 +3,7 @@
  *
  * Automated Home Lock System using CP Plus Electric Door Lock, GSM SIM900A Module and Arduino Uno
  * With sms control access from 4 different mobile no.s
- * @version 0.1
+ * @version 1.0
  * @date 05-08-2019
  * @authors A. Sharma  and A. Saikia
  * @copyright Copyright (c) 2019 LSTOAA
