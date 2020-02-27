@@ -87,12 +87,12 @@ int lock1 = 9;
    {
    delay(10);
    inchar=Serial.read();
-   if ((inchar=='o')||(inchar=='O')) //LO, Lo, lO, lo will open the lock
+   if ((inchar=='o')||(inchar=='O')) //#LO, #Lo, #lO, #lo will open the lock
     {
     digitalWrite(lock1, LOW);
     delay(10000);
     }
-   else if ((inchar=='c')||(inchar=='C')) //LC, Lc, lC, lc will open the lock
+   else if ((inchar=='c')||(inchar=='C')) //#LC, #Lc, #lC, #lc will open the lock
     {
     digitalWrite(lock1, HIGH);
     delay(10000);
